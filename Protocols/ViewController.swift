@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let fox = Animal(age: 2, birthDate: Date(), gender: "Male", color: UIColor.red)
+        fox.attack(age: fox.age)
+        print(fox)
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,6 +12,8 @@
 		E8F6B15B1ED4ACD500DA92DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B1591ED4ACD500DA92DD /* Main.storyboard */; };
 		E8F6B15D1ED4ACD500DA92DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B15C1ED4ACD500DA92DD /* Assets.xcassets */; };
 		E8F6B1601ED4ACD600DA92DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B15E1ED4ACD600DA92DD /* LaunchScreen.storyboard */; };
+		E8F6B1681ED4AD0A00DA92DD /* AnimalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B1671ED4AD0A00DA92DD /* AnimalDataSource.swift */; };
+		E8F6B16A1ED4AD8100DA92DD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B1691ED4AD8100DA92DD /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E8F6B15C1ED4ACD500DA92DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8F6B15F1ED4ACD600DA92DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F6B1611ED4ACD600DA92DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F6B1671ED4AD0A00DA92DD /* AnimalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimalDataSource.swift; path = ../AnimalDataSource.swift; sourceTree = "<group>"; };
+		E8F6B1691ED4AD8100DA92DD /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		E8F6B1541ED4ACD500DA92DD /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				E8F6B1691ED4AD8100DA92DD /* Animal.swift */,
+				E8F6B1671ED4AD0A00DA92DD /* AnimalDataSource.swift */,
 				E8F6B1551ED4ACD500DA92DD /* AppDelegate.swift */,
 				E8F6B1571ED4ACD500DA92DD /* ViewController.swift */,
 				E8F6B1591ED4ACD500DA92DD /* Main.storyboard */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F6B1581ED4ACD500DA92DD /* ViewController.swift in Sources */,
+				E8F6B16A1ED4AD8100DA92DD /* Animal.swift in Sources */,
 				E8F6B1561ED4ACD500DA92DD /* AppDelegate.swift in Sources */,
+				E8F6B1681ED4AD0A00DA92DD /* AnimalDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
